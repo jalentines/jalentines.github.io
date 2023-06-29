@@ -167,14 +167,14 @@ a {
     text-align: var(--alignment);
     z-index: 1;
     background-color: rgba(153,153,153,0);
-    box-shadow: 0.574rem 0.66rem 3.375rem 0.5rem rgba(105,103,199,0.059);
+    box-shadow: 0.574rem 0.66rem 3.375rem 0.5rem rgba(105,103,199,0);
     border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
     border-top: solid 2px transparent;
     border-right: solid 2px transparent;
     border-bottom: solid 2px transparent;
     border-left: solid 2px transparent;
     -webkit-backdrop-filter: blur(1.775rem);
-    backdrop-filter: blur(1.775rem);
+    /* backdrop-filter: blur(1.775rem);*/
     transform: perspective(1000px) rotateX(0deg);
     transform-origin: 50% 50%;
     transition: opacity 2s ease 0s,transform 2s ease 0s;
