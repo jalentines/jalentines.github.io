@@ -173,8 +173,8 @@ a {
     border-right: solid 2px transparent;
     border-bottom: solid 2px transparent;
     border-left: solid 2px transparent;
-    -webkit-backdrop-filter: blur(1.775rem);
-    /* backdrop-filter: blur(1.775rem);*/
+    /* -webkit-backdrop-filter: blur(1.775rem);
+    backdrop-filter: blur(1.775rem);*/
     transform: perspective(1000px) rotateX(0deg);
     transform-origin: 50% 50%;
     transition: opacity 2s ease 0s,transform 2s ease 0s;
