@@ -65,12 +65,13 @@ body:before {
     transform: scale(1);
     width: 100vw;
     z-index: 0;
-    background-image: url('img/bg0.gif');
+    background-image: url('img/bg2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #FFFFFF;
 }
+
 :root {
     --background-height: 100vh;
     --site-language-alignment: left;
